@@ -8,8 +8,8 @@ spring:
        config:
            server:
               git:
-                uri: file://C:/dev/integra-microservices-config
-                #uri: file://opt/apps/integra-microservices-config
+                #uri: file://C:/dev/integra-microservices-config
+                uri: file://opt/apps/integra-microservices-config
 #eureka:
 #  client:
 #    fetch-registry: false
