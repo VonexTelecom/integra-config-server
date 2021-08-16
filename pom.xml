@@ -10,9 +10,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.integra</groupId>
-	<artifactId>api.config</artifactId>
+	<artifactId>integra-config-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>api.config</name>
+	<name>integra-config-server</name>
 	<description>Config Server</description>
 
 	<properties>
