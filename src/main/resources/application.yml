@@ -10,7 +10,10 @@ spring:
               git:
                 #uri: file://C:/dev/integra-microservices-config
                 uri: file://home/jsoares/integra-config-server-arquivos
-#eureka:
-#  client:
+           
+eureka:
+  client:
+     serviceUrl:
+        defaultZone: http://integra-eureka:8761/eureka
 #    fetch-registry: false
 #    register-with-eureka: false    
