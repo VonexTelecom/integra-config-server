@@ -9,7 +9,7 @@ spring:
            server:
               git:
                 #uri: file://C:/dev/integra-microservices-config
-                uri: file://opt/apps/integra-microservices-config
+                uri: file://home/jsoares/integra-config-server-arquivos
 #eureka:
 #  client:
 #    fetch-registry: false
