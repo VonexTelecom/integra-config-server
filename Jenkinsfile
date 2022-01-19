@@ -22,8 +22,8 @@ pipeline {
         }
         stage ('Run docker') {
             steps {
-                sh ' docker stop integra-config-server' 
-                sh ' docker rm integra-config-server'                
+                //sh ' docker stop integra-config-server' 
+                //sh ' docker rm integra-config-server'                
                 sh ' docker container run --network intranet -h integra-config-server -d --name integra-config-server -p 8088:8088 vonex/api_config-server:${BUILD_NUMBER}'
             }
         }        
